@@ -1,0 +1,160 @@
+/* Get in Touch section */
+
+.get-in-touch-container{
+    background-color: #f8dd9f;
+    width: 100%; 
+    height: 80vh; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    box-sizing: border-box; 
+  
+}
+
+.get-in-touch-text{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    margin-left: 8vw;
+    margin-bottom: 18vh;
+  
+}
+
+.get-in-touch-headline{
+    font-size: 5.8vh;
+    font-family: 'DM Serif Display', serif;
+    color: #000000; 
+    
+}
+
+.get-in-touch-subheading{
+    font-size: 2.5vh; 
+    font-family: 'DM Serif Display', serif;
+    color: #000000;
+   margin-top: -5vh;
+   
+}
+
+.get-in-touch-description{
+    font-size: 1.7vh; 
+    font-family: 'Poppins', sans-serif;
+    color: #000000; 
+    margin-top: -1vh;
+}
+
+.get-in-touch-form{
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 2vh;
+    margin-right:-3vh;
+}
+
+input{
+    width: 41vw;
+    height: 3vh;
+    margin-bottom: 1.5vh;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7vh; 
+}
+
+.message-input{
+    width: 41vw;
+    height: 8vh;
+    margin-bottom: 1.5vh;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7vh; 
+    resize: none;
+    
+}
+
+input::placeholder {
+    color: black; 
+}
+
+.message-input::placeholder {
+    color: black;
+}
+
+
+.get-in-touch-button {
+
+    width: 20vh; 
+    height: 5vh;
+    font-size: 1.2vh; 
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vh; 
+    cursor: pointer;
+    margin-left: 61vh;
+  
+
+}
+
+@media screen and (max-width: 700px), only screen and (min-device-width: 768px) and (max-device-width: 1366px){
+
+    .get-in-touch-container{
+        height: 18vh;
+    }
+
+    .get-in-touch-headline{
+        font-size: 2vh;
+        margin-top: -4vh;
+    }
+
+    .get-in-touch-text{
+        margin-bottom: 0vh;
+    }
+
+    .get-in-touch-subheading{
+        font-size: 0.8vh; 
+        margin-top: -1vh;
+    }
+
+    .get-in-touch-description{
+        font-size: 0.7vh; 
+        margin-top: -0.5vh;
+    }
+
+    .get-in-touch-form{
+
+        margin-top: 3vh;
+        margin-right: 4vh;
+        
+    }
+
+    input{
+        width: 25vw;
+        height: 0.1vh;
+        margin-bottom: 0.2vh;
+        font-size: 0.7vh; 
+    }
+
+    .message-input{
+        width: 25vw;
+        height: 2vh;
+        margin-bottom: 1vh;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.7vh; 
+        resize: none;
+        
+    }
+
+    .get-in-touch-button {
+        width: 7vh; 
+        height: 2vh;
+        font-size: 0.8vh; 
+        margin-left: 0vh;
+    }
+}

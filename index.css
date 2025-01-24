@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    width: 100%;
+  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw; 
+}
+
+.button button,
+.hero3-button,
+.hero5-button,
+.get-in-touch-button {
+    background-color: black;
+    color: white;
+    margin-right: 10vw;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.5vh; 
+    width: 20vh; 
+    height: 5vh;
+    font-size: 1.2vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px), only screen and (min-device-width: 768px) and (max-device-width: 1366px){
+
+    .button button,
+    .hero3-button,
+    .hero5-button,
+    .get-in-touch-button {
+       
+        border-radius: 0.5vh; 
+        width: 10vh; 
+        height: 3vh;
+        font-size: 0.8vh; 
+       
+    }
+}
+   
+
+
